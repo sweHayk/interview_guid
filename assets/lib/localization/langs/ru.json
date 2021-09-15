@@ -1,0 +1,19 @@
+{
+  "lang": "Язык",
+  "cs_basics": "Computer Science basic points",
+  "data_struct": "Структуры данных",
+  "data_struct_body": "A data structure is a particular way of organizing data in a computer so that it can be used effectively.\n\n",
+  "oop": "OOP (Object-Oriented Programming)",
+  "oop_body": "-- Inheritance\n-- Encapsulation\n-- Polymorphism\n-- Data Abstraction",
+  "design_principles": "design principles",
+  "design_principles_body": " -- DRY stands for Don’t Repeat Yourself.\n -- KISS is an acronym for Keep It Simple, Stupid.\n -- YAGNI You Ain’t Gonna Need It\n -- SOLID\n---(S) Single-responsibility principle\n---(O) Open–closed principle\n---(L) Liskov substitution principle\n---(I) Interface segregation principle\n---(D) Dependency inversion principle",
+
+  "dart_lang": "Dart language",
+  "dart_lang_body": "Dart is a client-oriented language for developing fast apps any platform.\n object-oriented \n class-based \n garbage-collected \n C-style syntax \n compile to either native code or EcmaScript",
+  "variable_types": "Variable types",
+  "variable_types_body": "Number (int, double, num) \n String \n bool \n List \n map \n set \n Runes \n Never \n null",
+
+  "flutter_frame": "Flutter",
+  "flutter_frame_body": "Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase."
+
+}
