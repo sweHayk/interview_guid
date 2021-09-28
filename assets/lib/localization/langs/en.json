@@ -1,19 +1,133 @@
 {
- "lang": "Language",
- "cs_basics": "Computer Science basic points",
- "data_struct": "Data structure",
- "data_struct_body": "A data structure is a particular way of organizing data in a computer so that it can be used effectively.\n\n",
- "oop": "OOP (Object-Oriented Programming)",
- "oop_body": "-- Inheritance\n-- Encapsulation\n-- Polymorphism\n-- Data Abstraction",
- "design_principles": "design principles",
- "design_principles_body": " -- DRY stands for Don’t Repeat Yourself.\n -- KISS is an acronym for Keep It Simple, Stupid.\n -- YAGNI You Ain’t Gonna Need It\n -- SOLID\n---(S) Single-responsibility principle\n---(O) Open–closed principle\n---(L) Liskov substitution principle\n---(I) Interface segregation principle\n---(D) Dependency inversion principle",
+ "computer_science": "Computer science questions and answers",
 
- "dart_lang": "Dart language",
- "dart_lang_body": "Dart is a client-oriented language for developing fast apps any platform.\n object-oriented \n class-based \n garbage-collected \n C-style syntax \n compile to either native code or EcmaScript",
- "variable_types": "Variable types",
- "variable_types_body": "Number (int, double, num) \n String \n bool \n List \n map \n set \n Runes \n Never \n null",
+ "cs_q_0": "What is a Computer System?",
+ "cs_answer_0": "A computer system is a combination of CPU, memory, and Operating System (OS) and supplementary devices connected to it (keyboard, mouse, speakers, etc.). ",
 
- "flutter_frame": "Flutter",
- "flutter_frame_body": "Flutter is Google's UI toolkit for building beautiful, natively compiled applications for mobile, web, desktop, and embedded devices from a single codebase."
+ "cs_q_1": "What do you mean by a Microprocessor?",
+ "cs_answer_1": "A microprocessor refers to an integrated circuit functioning as the central processing unit of a computer system. ",
 
+ "cs_q_2": "What do you Mean by SDLC?",
+ "cs_answer_2": "SDLC stands for Systems development life cycle or application development life cycle and is the process of creating, planning, deploying, and testing a system. It focuses on producing a software product efficiently.",
+
+ "cs_q_3": "What is a Framework?",
+ "cs_answer_3": "A framework is a platform that allows you to create software applications. It gives you the foundation on which you can create a program for a particular platform. It might consist of predetermined functions and classes. You can use a framework to manage the hardware, inputs, and work with the system software. ",
+
+ "cs_q_4": "What do you mean by a Class and a Superclass? ",
+ "cs_answer_4": "Class defines the features of an object like how it will respond to a message and what kind of a message the object will react to. A superclass is the basis of the class we consider.",
+
+ "cs_q_5": "What do you mean by a Chipset?",
+ "cs_answer_5": "A chipset helps you in controlling the communication between different devices and is crucial for determining whether a computer system is functioning properly or not. It controls the communication between all the computer components such as the CPU, the storage, and the RAM.\n\nIt tells you which and how many USB devices your motherboard can support. Primarily, chipsets help a computer system in controlling peripheral components such as the keyboard, monitor, mouse, or printer. ",
+
+ "cs_q_6": "What is a Destructor?",
+ "cs_answer_6": "A destructure is a class member function for deleting or destructing objects. ",
+
+ "cs_q_7": "Can you Differentiate Between Method and Constructor?",
+ "cs_answer_7": "There are plenty of differences between method and constructor. We use a method to perform some function whereas we use a constructor to initialize a class’s instance. The method has a return type while Constructor doesn’t have a return type. Moreover, the name of a method can be different or the same according to your requirements but the name of a constructor must always be the same as the class name. We must call the method explicitly and the compiler doesn’t provide any method. On the other hand, the constructor calls automatically when we make a class object and the compiler provides a default compiler. ",
+
+ "cs_q_8": "What do you Mean by Cryptography? ",
+ "cs_answer_8": "Cryptography, also known as cryptology, is the study and practice of techniques for secure communication. It focuses on studying techniques that prevent unwanted parties from accessing your information or communication. ",
+
+ "cs_q_9": "What do you Mean by an Algorithm?",
+ "cs_answer_9": "An algorithm refers to a definite sequence of executable and well-defined instructions for solving a class of problems or performing a computation. ",
+
+ "cs_q_10": "What is the Main Difference Between Thread and Process?",
+ "cs_answer_10": "Thread is a section of a process whereas a Process is a program within the execution. A process can’t have multiple threads but vice versa isn’t possible.",
+
+ "cs_q_11": "What is Primary Memory?",
+ "cs_answer_11": "Primary memory is the central memory of a computer which you can access by using the Central Processing Unit (CPU). It contains information temporarily until the particular process completes its execution. ",
+
+ "cs_q_12": "What is the Difference Between the Interpreter and Compiler?",
+ "cs_answer_12": "There are plenty of differences between a compiler and an interpreter. First, there’s the difference in speed. Interpreted code runs slower than compiled code. The interpreter doesn’t produce an output program so you must evaluate the source while executing the code, whereas the compiler produces an output program as an exe file which you can run separately from the source.\n\nThe interpreter is most suitable for the development environment whereas it’s a little challenging to execute the compiler because you can’t predict what would happen at turn time. Moreover, the interpreter takes only one line of code as its input whereas the compiler takes the complete program as its input. \n\nThe interpreter remains in the memory during interpretation. On the other hand, the compiler executes the target program separately and doesn’t have to remain in the memory for this process. Finally, the interpreter would show all the errors one-by-one while the compiler would show them all at once after completing the compilation.",
+
+ "cs_q_13": "What are the Various Types of Access Modifiers?",
+ "cs_answer_13": "There are four kinds of access modifiers: Default, Private, Public, and Protected. The private modifier makes the class (or method) visible to a specific class while the public modifier makes it visible to everything. The protected modifier would make it visible to particular packages. ",
+
+ "cs_q_14": "What is Memory?",
+ "cs_answer_14": "Computer memory is just like the human brain. It is used to store data/information and instructions. It is a data storage unit or a data storage device where data is to be processed and instructions required for processing are stored. It can store both the input and output can be stored here.\n\nCharacteristics of Main Memory:\n\nIt is faster computer memory as compare to secondary memory.\nIt is semiconductor memories.\nIt is usually a volatile memory.\nIt is the main memory of the computer.\nA computer system cannot run without primary memory.\nIn general, memory is of three types:\n\nPrimary memory\nSecondary memory\nCache memory",
+
+ "cs_q_15": "What is Primary Memory?",
+ "cs_answer_15": "It is also known as the main memory of the computer system. It is used to store data and programs or instructions during computer operations. It uses semiconductor technology and hence is commonly called semiconductor memory. Primary memory is of two types:\n\n(i) RAM (Random Access Memory): It is a volatile memory. Volatile memory stores information based on the power supply. If the power supply fails/ interrupted/stopped, all the data & information on this memory will be lost. RAM is used for booting up or start the computer. It temporarily stores programs/ data which has to be executed by the processor. RAM is of two types:\n\nS RAM (Static RAM): It uses transistors and the circuits of this memory are capable of retaining their state as long as the power is applied. This memory consists of the number of flip flops with each flip flop storing 1 bit. It has less access time and hence, it is faster.\nD RAM (Dynamic RAM): It uses capacitors and transistors and stores the data as a charge on the capacitors. They contain thousands of memory cells. It needs refreshing of charge on capacitor after a few milliseconds. This memory is slower than S RAM.\n(ii) ROM (Read Only Memory): It is a non-volatile memory. Non-volatile memory stores information even when there is a power supply failed/ interrupted/stopped. ROM is used to store information that is used to operate the system. As its name refers to read-only memory, we can only read the programs and data that is stored on it. It contains some electronic fuses that can be programmed for a piece of specific information. The information stored in the ROM in binary format. It is also known as permanent memory. ROM is of four types:\n\nMROM(Masked ROM): Hard-wired devices with a pre-programmed collection of data or instructions were the first ROMs. Masked ROMs are a type of low-cost ROM that works in this way.\nPROM (Programmable Read Only Memory): This read-only memory is modifiable once by the user. The user purchases a blank PROM and uses a PROM program to put the required contents into the PROM. Its content can’t be erased once written.\nEPROM (Erasable Programmable Read Only Memory): It is an extension to PROM where you can erase the content of ROM by exposing it to Ultraviolet rays for nearly 40 minutes.\nEEPROM (Electrically Erasable Programmable Read Only Memory): Here the written contents can be erased electrically. You can delete and reprogramme EEPROM up to 10,000 times. Erasing and programming take very little time, i.e., nearly  4 -10 ms(milliseconds). Any area in an EEPROM can be wiped and programmed selectively.",
+
+ "cs_q_16": "What is Secondary Memory ?",
+ "cs_answer_16": "It is also known as auxiliary memory and backup memory. It is a non-volatile memory and used to store a large amount of data or information. The data or information stored in secondary memory is permanent, and it is slower than primary memory. A CPU cannot access secondary memory directly. The data/information from the auxiliary memory is first transferred to the main memory, and then the CPU can access it.\n\nCharacteristics of Main Memory:\n\nIt is a slow memory but reusable.\nIt is a reliable and non-volatile memory.\nIt is cheaper than primary memory.\nThe storage capacity of secondary memory is large.\nA computer system can run without secondary memory.\nIn secondary memory, data is stored permanently even when the power is off.",
+
+ "cs_q_17": "What is Cache Memory ?",
+ "cs_answer_17": "It is a type of high-speed semiconductor memory that can help the CPU run faster. Between the CPU and the main memory, it serves as a buffer. It is used to store the data and programs that the CPU uses the most frequently.\n\nAdvantages of cache memory:\n\nIt is faster than the main memory.\nWhen compared to the main memory, it takes less time to access it.\nIt keeps the programs that can be run in a short amount of time.\nIt stores data in temporary use.\nDisadvantages of cache memory:\n\nBecause of the semiconductors used, it is very expensive.\nThe size of the cache (amount of data it can store) is usually small.",
+
+ "cs_q_18": "Data Structures",
+ "cs_answer_18": "18 18",
+
+ "cs_q_19": "OOP (Object-Oriented Programming)",
+ "cs_answer_19": "18 18",
+
+ "cs_q_20": "Programming principles",
+ "cs_answer_20": "DRY stands for Don’t Repeat Yourself.\nKISS is an acronym for Keep It Simple, Stupid.\nYAGNI You Ain’t Gonna Need It\nSOLID\n (S) Single-responsibility principle\n (O) Open–closed principle\n (L) Liskov substitution principle\n (I) Interface segregation principle\n (D) Dependency inversion principle",
+
+ "cs_q_21": "Dependency injection",
+ "cs_answer_21": "In software engineering, dependency injection is a technique whereby one object (or static method) supplies the dependencies of another object. A dependency is an object that can be used (a service).",
+
+ "cs_q_22": "What is API?",
+ "cs_answer_22": "API stands for application programming interface, which is a set of definitions and protocols for building and integrating application software.",
+
+ "cs_q_23": "How do APIs work?",
+ "cs_answer_23": "APIs let your product or service communicate with other products and services without having to know how they’re implemented. ",
+
+ "cs_q_24": "Four types of web APIs",
+ "cs_answer_24": "Public APIs, Partner APIs, Internal APIs(or private), Composite APIs(combine)",
+
+ "cs_q_25": "API protocols and architectures\n",
+ "cs_answer_25": "APIs exchange commands and data, and this requires clear protocols and architectures -- the rules, structures and constraints that govern an API's operation. Today, there are three categories of API protocols or architectures: REST, RPC and SOAP. These may be dubbed \"formats,\" each with unique characteristics and tradeoffs and employed for different purposes.",
+
+ "dart": "dart questions and answers",
+
+ "dart_q_0": "What is dart language?",
+ "dart_answer_0": "Dart is a client-optimized language for developing fast apps any platform\n object-oriented \n client-based \n garbage-collected \n C-styled \n compile either native code or JavaScript",
+
+ "dart_q_1": "JIT and AOT",
+ "dart_answer_1": "Dart is AOT (Ahead Of Time) compiled to fast, predictable, native code, which allows almost all of Flutter to be written in Dart. This not only makes Flutter fast, virtually everything (including all the widgets) can be customized.\nDart can also be JIT (Just In Time) compiled for exceptionally fast development cycles and game-changing workflow (including Flutter’s popular sub-second stateful hot reload).\nDart allows Flutter to avoid the need for a separate declarative layout language like JSX or XML, or separate visual interface builders, because Dart’s declarative, programmatic layout is easy to read and visualize. And with all the layout in one language and in one place, it is easy for Flutter to provide advanced tooling that makes layout a snap.\n",
+
+ "dart_q_2": "Explain the different types of Streams?",
+ "dart_answer_2": "There are two kinds of streams.\\n 1. Single subscription streams - The most common kind of stream. - It contains a sequence of events that are parts of a larger whole. Events need to be delivered in the correct order and without missing any of them. - This is the kind of stream you get when you read a file or receive a web request. - Such a stream can only be listened to once. Listening again later could mean missing out on initial events, and then the rest of the stream makes no sense. - When you start listening, the data will be fetched and provided in chunks.\\n 2.Broadcast streams\nIt intended for individual messages that can be handled one at a time. This kind of stream can be used for mouse events in a browser, for example.\nYou can start listening to such a stream at any time, and you get the events that are fired while you listen.\nMore than one listener can listen at the same time, and you can listen again later after canceling a previous subscription.",
+
+ "dart_q_3": "What is Streams in Flutter/Dart?",
+ "dart_answer_3": "Asynchronous programming in Dart is characterized by the Future and Stream classes.\nA stream is a sequence of asynchronous events. It is like an asynchronous Iterable—where, instead of getting the next event when you ask for it, the stream tells you that there is an event when it is ready.\nStreams can be created in many ways but they all are used in the same way; the asynchronous for loop( await for). E.g\n\tFuture<int> sumStream(Stream<int> stream) async {\n\t  var sum = 0;\n\t  await for (var value in stream) {\n\t    sum += value;\n\t  }\n\t  return sum;\n\t}\nStreams provide an asynchronous sequence of data.\nData sequences include user-generated events and data read from files.\nYou can process a stream using either await for or listen() from the Stream API.\nStreams provide a way to respond to errors.\nThere are two kinds of streams: single subscription or broadcast.",
+
+ "dart_q_4": "How to get difference of lists in Flutter/Dart?",
+ "dart_answer_4": "You can do something like this:\n\nList<double> first = [1,2,3,4,5,6,7];\nList<double> second = [3,5,6,7,9,10];\nList<double> output = first.where((element) => !second.contains(element));\nalternative answer:\n\nList<double> first = [1,2,3,4,5,6,7];\nList<double> second = [3,5,6,7,9,10];\nList<double> output = [];\n\nfirst.forEach((element) {\n    if(!second.contains(element)){\n    output.add(element);\n}\n});\n\n//at this point, output list should have the answer",
+
+ "dart_q_5": "What's the difference between async and async* in Dart?",
+ "dart_answer_5": "Marking a function as async or async* allows it to use the async/await for a Future.\n\nThe difference between both is that async* will always return a Stream and offer some syntactical sugar to emit a value through the yield keyword.\n\nWe can therefore do the following:\n\nStream<int> foo() async* {\n  for (int i = 0; i < 42; i++) {\n    await Future.delayed(const Duration(seconds: 1));\n    yield i;\n  }\n}\nThis function emits a value every second, which increments every time.",
+
+ "dart_q_6": "",
+ "dart_answer_6": "",
+
+ "dart_q_7": "",
+ "dart_answer_7": "",
+
+ "dart_q_8": "",
+ "dart_answer_8": "",
+
+ "flutter": "Computer science questions and answers",
+
+ "flutter_q_0": "What is Flutter?",
+ "flutter_answer_0": "Flutter is a free and open-source mobile UI framework created by Google and released in May 2017. In a few words, it allows you to create a native mobile application with only one codebase. This means that you can use one programming language and one codebase to create two different apps (for iOS and Android).\n\nFlutter consists of two important parts:\n\nAn SDK (Software Development Kit): A collection of tools that are going to help you develop your applications. This includes tools to compile your code into native machine code (code for iOS and Android).\nA Framework (UI Library based on widgets): A collection of reusable UI elements (buttons, text inputs, sliders, and so on) that you can personalize for your own needs.",
+
+ "flutter_q_1": "When should you use WidgetsBindingObserver? ",
+ "flutter_answer_1": "WidgetsBindingObserver should be used when we want to listen to the AppLifecycleState and call stop/start on our services.\n",
+
+ "flutter_q_2": "What is the difference between \"main()\" and \"runApp()\" functions in Flutter?  ",
+ "flutter_answer_2": "main () function came from Java-like languages so it's where all program started, without it, you can't write any program on Flutter even without UI.\nrunApp() function should return Widget that would be attached to the screen as a root of the Widget Tree that will be rendered.",
+
+ "flutter_q_3": "What is ephemeral state Flutter?",
+ "flutter_answer_3": "Ephemeral state (sometimes called UI state or local state) is the state you can neatly contain in a single widget.\n",
+
+ "flutter_q_4": "",
+ "flutter_answer_4": "",
+
+ "flutter_q_5": "",
+ "flutter_answer_5": "",
+
+ "flutter_q_25": "",
+ "flutter_answer_25": ""
 }
