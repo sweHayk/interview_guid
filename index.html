@@ -26,7 +26,7 @@
   <meta name="apple-mobile-web-app-title" content="prepare_to_the_interview">
   <link rel="apple-touch-icon" href="/interview_guid/blob/main/icons/Icon-192.png">
 
-  <title>prepare_to_the_interview</title>
+  <title>Prepare to the interview</title>
   <link rel="manifest" href="/interview_guid/blob/main/manifest.json">
 </head>
 <body>
@@ -42,7 +42,7 @@
       }
       scriptLoaded = true;
       var scriptTag = document.createElement('script');
-      scriptTag.src = 'main.dart.js';
+      scriptTag.src = '/interview_guid/blob/main/main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
     }
@@ -53,7 +53,7 @@
         // Wait for registration to finish before dropping the <script> tag.
         // Otherwise, the browser will load the script multiple times,
         // potentially different versions.
-        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        var serviceWorkerUrl = '/interview_guid/blob/main/flutter_service_worker.js?v=' + serviceWorkerVersion;
         navigator.serviceWorker.register(serviceWorkerUrl)
           .then((reg) => {
             function waitForActivation(serviceWorker) {
